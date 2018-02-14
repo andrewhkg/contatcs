@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const readFileAsDeataURL = (file) =>
+const readFileAsDataURL = (file) =>
   new Promise(resolve => {
     const reader = new FileReader()
 
